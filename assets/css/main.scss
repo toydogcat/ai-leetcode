@@ -9,6 +9,11 @@ body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+// 增加頁面最大寬度
+#main {
+  max-width: 1400px;
+}
+
 .page__content {
   p {
     font-size: 1.1em;
@@ -16,9 +21,22 @@ body {
   }
 }
 
-// Custom code block styling
+// 程式碼區塊優化：加入水平與垂直滾輪
 .highlight {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  pre {
+    max-height: 500px; // 設定垂直上限
+    overflow-y: auto;  // 垂直滾輪
+    overflow-x: auto;  // 水平滾輪
+  }
+}
+
+// 頁尾計數器間距優化
+.footer-custom {
+  padding: 20px 0;
+  span {
+    margin: 0 10px;
+  }
 }
