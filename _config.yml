@@ -1,0 +1,71 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, such as
+# author details, title, and more.
+
+# Site Settings
+title: "AI LeetCode"
+locale: "zh-TW"
+description: "LeetCode 解題筆記 - Python & C++ 雙語詳解"
+url: "https://toydogcat.github.io" # Replace with your GitHub Pages URL
+baseurl: "/ai-leetcode" # Replace with your project name
+
+# Author Settings
+author:
+  name: "Antigravity"
+  avatar: "/assets/images/avatar.png"
+  bio: "AI 輔助程式筆記"
+  location: "Taiwan"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/toydogcat"
+
+# Theme Settings
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-remote-theme
+
+# Site Features
+markdown: kramdown
+highlighter: rouge
+paginate: 10
+paginate_path: /page:num/
+
+# Search
+search: true
+search_full_content: true
+
+# Taxonomy settings
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+      show_date: true
+      mathjax: true

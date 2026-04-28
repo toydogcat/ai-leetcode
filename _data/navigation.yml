@@ -1,0 +1,9 @@
+main:
+  - title: "所有題目"
+    url: /year-archive/
+  - title: "難度分類"
+    url: /tags/
+  - title: "類型分類"
+    url: /categories/
+  - title: "關於"
+    url: /about/
