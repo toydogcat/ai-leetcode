@@ -12,7 +12,7 @@ baseurl: "/ai-leetcode" # Replace with your project name
 
 # Author Settings
 author:
-  name: "Antigravity"
+  name: "Toby"
   avatar: "/assets/images/avatar.webp"
   bio: "AI 輔助程式筆記"
   location: "Taiwan"
