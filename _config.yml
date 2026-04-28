@@ -23,7 +23,7 @@ author:
 
 # Theme Settings
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
-minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "dark" # Changed from air to dark
 
 # Plugins
 plugins:
