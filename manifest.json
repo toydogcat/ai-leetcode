@@ -1,0 +1,23 @@
+{
+  "name": "AI LeetCode Notes",
+  "short_name": "AI LeetCode",
+  "description": "LeetCode 解題筆記 - Python & C++ 雙語詳解",
+  "start_url": "/ai-leetcode/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/ai-leetcode/assets/images/logo-512.webp",
+      "sizes": "512x512",
+      "type": "image/webp"
+    },
+    {
+      "src": "/ai-leetcode/assets/images/logo-512.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ]
+}
