@@ -87,6 +87,8 @@ class Solution:
 ```
 
 ### C++
+
+{% raw %}
 ```cpp
 #include <vector>
 #include <queue>
@@ -128,3 +130,4 @@ public:
     }
 };
 ```
+{% endraw %}

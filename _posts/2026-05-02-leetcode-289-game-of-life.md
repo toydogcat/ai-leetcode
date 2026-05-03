@@ -89,6 +89,8 @@ class Solution:
 ```
 
 ### C++
+
+{% raw %}
 ```cpp
 #include <vector>
 #include <cmath>
@@ -137,3 +139,4 @@ public:
     }
 };
 ```
+{% endraw %}
