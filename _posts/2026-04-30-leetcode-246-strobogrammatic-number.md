@@ -50,6 +50,8 @@ class Solution:
 ```
 
 ### C++
+
+{% raw %}
 ```cpp
 #include <string>
 #include <unordered_map>
@@ -69,3 +71,4 @@ public:
     }
 };
 ```
+{% endraw %}
